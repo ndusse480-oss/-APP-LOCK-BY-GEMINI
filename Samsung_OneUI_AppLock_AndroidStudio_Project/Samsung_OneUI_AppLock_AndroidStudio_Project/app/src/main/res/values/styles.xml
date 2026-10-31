@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SamsungAppLock" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/black</item>
+        <item name="colorPrimary">@color/samsung_blue</item>
+    </style>
+
+    <style name="Theme.SamsungAppLock.Overlay" parent="Theme.SamsungAppLock">
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowBackground">@color/black</item>
+    </style>
+
+    <style name="KeypadButton">
+        <item name="android:layout_width">68dp</item>
+        <item name="android:layout_height">68dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:backgroundTint">#1A1A1E</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+</resources>
